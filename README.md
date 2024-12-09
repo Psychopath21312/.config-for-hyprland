@@ -1,3 +1,3 @@
-Скорее всего нужно будет поменять ~/.config/hypr/hyprpaper.conf и изменить путь до обоев,
-и установить пакеты AUR: wlogout, flameshot-git
-И также sudo pacman -S --needed hyprland hyprpaper kitty thunar wofi waybar 
+Скорее всего нужно будет в ~/.config/hypr/hyprpaper.conf изменить путь до обоев,
+установить пакеты AUR: wlogout, flameshot-git.
+И также вот такую команду оставлю навсякий: sudo pacman -S --needed hyprland hyprpaper kitty thunar wofi waybar , вдруг не установлено.
