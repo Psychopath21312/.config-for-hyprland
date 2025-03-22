@@ -2,9 +2,13 @@
   
 ## Arch Linux:
 
-```sudo pacman -S --needed kitty nautilus waybar wofi dunst qt6ct pipewire pipewire-pulse wireplumber chromium hyprland hyprlock hyprpolkitagent hyprcursor hyprpaper xdg-desktop-portal xdg-desktop-portal-hyprland gnome-extra-themes ttf-jetbrains-mono-nerd ttf-font-awesome```
+```
+sudo pacman -S --needed kitty nautilus waybar wofi dunst qt6ct pipewire pipewire-pulse wireplumber chromium hyprland hyprlock hyprpolkitagent hyprcursor hyprpaper xdg-desktop-portal xdg-desktop-portal-hyprland gnome-extra-themes ttf-jetbrains-mono-nerd ttf-font-awesome
+```
 
-```YOUR_AUR_HELPER -S hyprshot bibata-cursor-theme```
+```
+YOUR_AUR_HELPER -S hyprshot bibata-cursor-theme
+```
 
 # Usage:
 ## https://wiki.hyprland.org/
@@ -23,6 +27,10 @@ more binds in ~/.config/hypr/hyprland.conf or https://wiki.hyprland.org/Configur
 
 # Another applications for me:
 
-```sudo pacman -S --needed git hyprpicker vim neovim wl-clipboard telegram-desktop```
+```
+sudo pacman -S --needed git hyprpicker vim neovim wl-clipboard telegram-desktop
+```
 
-```paru -S --needed vesktop```
+```
+paru -S --needed vesktop
+```
