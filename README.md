@@ -29,7 +29,7 @@ win + c   - kill active
 # Another applications for me:
 
 ```
-sudo pacman -S --needed hyprpicker vim neovim wl-clipboard telegram-desktop steam mangohud goverlay vulkan-tools mesa-demos qt6pas gamemode gamescope
+sudo pacman -S --needed hyprpicker vim neovim wl-clipboard telegram-desktop steam mangohud lib32-mangohud goverlay vulkan-tools mesa-demos qt6pas gamemode lib32-gamemode gamescope
 ```
 
 ```
