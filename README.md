@@ -7,4 +7,4 @@ Installing:
     YOUR_AUR_HELPER -S hyprshot 
 
 Screenshot:
-![image](https://github.com/user-attachments/assets/f040bfc6-7f1c-457b-9aa5-85bf16e439e4)
+![image](https://github.com/user-attachments/assets/f98764cd-01bc-4c71-93f2-dfcf1412f85f)
