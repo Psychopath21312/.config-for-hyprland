@@ -13,12 +13,13 @@ YOUR_AUR_HELPER -S hyprshot bibata-cursor-theme
 # Usage:
 ## https://wiki.hyprland.org/
 
-win + q   - terminal (kitty)
-win + e   - file manager (nautilus)
-win + r   - app launcher (wofi)
+## Basic binds
+win + q   - terminal (kitty)\
+win + e   - file manager (nautilus)\
+win + r   - app launcher (wofi)\
 win + c   - kill active
 
-more binds in ~/.config/hypr/hyprland.conf or https://wiki.hyprland.org/Configuring/Binds/
+## More binds in ~/.config/hypr/hyprland.conf or https://wiki.hyprland.org/Configuring/Binds/
 
 ## Screenshot:
 ![image](https://github.com/user-attachments/assets/f98764cd-01bc-4c71-93f2-dfcf1412f85f)
