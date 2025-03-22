@@ -3,7 +3,7 @@
 ## Arch Linux:
 
 ```
-sudo pacman -S --needed kitty nautilus waybar wofi dunst qt6ct pipewire pipewire-pulse wireplumber chromium hyprland hyprlock hyprpolkitagent hyprcursor hyprpaper xdg-desktop-portal xdg-desktop-portal-hyprland gnome-extra-themes ttf-jetbrains-mono-nerd ttf-font-awesome
+sudo pacman -S --needed kitty nautilus waybar wofi dunst git qt6ct pipewire pipewire-pulse wireplumber chromium hyprland hyprlock hyprpolkitagent hyprcursor hyprpaper xdg-desktop-portal xdg-desktop-portal-hyprland gnome-extra-themes ttf-jetbrains-mono-nerd ttf-font-awesome
 ```
 
 ```
@@ -21,7 +21,7 @@ win + c   - kill active
 
 ## More binds in ~/.config/hypr/hyprland.conf or https://wiki.hyprland.org/Configuring/Binds/
 
-## Screenshot:
+# Screenshot:
 ![image](https://github.com/user-attachments/assets/f98764cd-01bc-4c71-93f2-dfcf1412f85f)
 
 
@@ -29,7 +29,7 @@ win + c   - kill active
 # Another applications for me:
 
 ```
-sudo pacman -S --needed git hyprpicker vim neovim wl-clipboard telegram-desktop
+sudo pacman -S --needed hyprpicker vim neovim wl-clipboard telegram-desktop
 ```
 
 ```
