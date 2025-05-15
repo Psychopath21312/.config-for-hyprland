@@ -1,5 +1,9 @@
 # Installing:
-  
+```
+git clone ~/
+mv config/* .config/
+rm -rf .git README.md
+```
 ## Arch Linux:
 
 ```
