@@ -1,0 +1,67 @@
+{
+  // bar configuration
+  "layer": "top",
+  "position": "top",
+  "height": "24",
+  "margin": "4px 8px -2px 8px",
+  "name": "mainbar",
+
+  // module position
+  "modules-left": ["custom/menu", "hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": [ "tray", "cpu", "memory", "temperature", "network", "clock" ],
+
+  // Modules configuration
+  "custom/menu": {
+    "format": "<span size='17500' foreground='#C6AAE8'>󰣇</span>",
+    "on-click": "wofi --show drun",
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    },
+    "format-icons": {
+      "default": "",
+      "urgent": "",
+      "active": ""
+    },
+  },
+ "clock": {
+    "format": "<span size='13000' foreground='#C6AAE8'> </span>{:%a %d %H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+    "network": {
+    "format-wifi": "<span size='13000' foreground='#F2CECF'> </span>{essid}",
+    "format-ethernet": "<span size='13000' foreground='#F2CECF'>󰤭</span> Disconnected",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#F2CECF'> </span>Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  },
+  "cpu": {
+    "interval": 10,
+    "format": "  {usage}%",
+    "max-length": 10
+  },
+  "temperature": {
+    "format": "{temperatureC}°C"
+  },
+  "memory": {
+    "interval": 20,
+    "format": " {}%",
+    "max-length": 10
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",        // Logo type: auto, builtin, small, file, etc.
+    "source": "arch",      // Built-in logo name or file path
+    "width": 65,           // Width in characters (for image logos)
+    "height": 35,          // Height in characters (for image logos)
+    "padding": {
+        "top": 2,          // Top padding
+        "left": 2,         // Left padding
+        "right": 3         // Right padding
+    },
+    "color": {             // Override logo colors
+        "1": "blue",
+        "2": "blue"
+    }
+  },
+  "display": {
+    "separator": ": ",     // Separator between keys and values
+    "color": {
+        "keys": "blue",    // Key color
+        "title": "cyan",     // Title color
+        "separator": "1" // Bold
+    },
+    "key": {
+        "width": 12,       // Aligns keys to this width
+        "type": "string",   // string, icon, both, or none
+        "padding-left": 4
+    },
+    "bar": {
+        "width": 10,       // Width of percentage bars
+        "charElapsed": "■", // Character for elapsed portion
+        "charTotal": "-"   // Character for total portion
+    },
+    "percent": {
+        "type": 9,         // 1=number, 2=bar, 3=both, 9=colored number
+        "color": {
+            "green": "green",
+            "yellow": "light_yellow",
+            "red": "light_red"
+        }
+    },
+    "constants": [
+      "───────────────────────────"
+    ],
+  },
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "┌{$1} {#1}System Information{#1} {$1}┐",
+      "keyColor": "blue"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "󰣇 OS"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel"
+    },
+    {
+      "type": "uptime",
+      "key": " Uptime"
+    },
+    {
+      "type": "packages",
+      "key": " Packages"
+    },
+    {
+      "type": "display",
+      "key": " Display"
+    },
+    {
+      "type": "de",
+      "key": "󰍹 DE"
+    },
+    {
+      "type": "wm",
+      "key": "󰍹 WM"
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal"
+    },
+    "break",
+    {
+      "type": "cpu",
+      "key": " CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "󰾲 GPU"
+    },
+    "break",
+    {
+      "type": "memory",
+      "key": " Memory",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    },
+    {
+      "type": "swap",
+      "key": " Swap",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    },
+    {
+      "type": "disk",
+      "key": " Disk",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    },
+    "break",
+    {
+      "type": "localip",
+      "key": "󰩟 Local IP"
+    },
+    {
+      "type": "publicip",
+      "key": "󰩟 Public IP"
+    },
+    {
+      "type": "battery",
+      "key": " Battery"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└{$1}────────────────────{$1}┘"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 30,
+      "symbol": "circle"
+    }
+  ]
+}

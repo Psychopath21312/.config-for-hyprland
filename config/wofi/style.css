@@ -1,0 +1,39 @@
+window {
+margin: 5px;
+background: alpha(#1E1E28, 1);
+border-radius: 5px;
+}
+
+#input {
+margin: 5px;
+background-color: alpha(#282938, 1);
+}
+
+#inner-box {
+margin: 5px;
+background-color: alpha(#1E1E28, 1);
+}
+
+#outer-box {
+margin: 5px;
+background-color: alpha(#1E1E28, 1)
+}
+
+#scroll {
+margin: 5px;
+background-color: alpha(#1E1E28, 1);
+border-radius: 5px;
+}
+
+#text {
+margin: 5px;
+color: alpha(#DADAE8, 1);
+}
+
+#entry:selected {
+background-color: aplha(#3C3E53, 1);
+}
+
+#text:selected {
+color: alpha(#B4BEFE, 1);
+}
