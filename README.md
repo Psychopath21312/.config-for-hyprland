@@ -1,6 +1,7 @@
 # Installing:
 ```
-git clone https://github.com/Psychopath21312/.config-for-hyprland.git ~/
+cd
+git clone https://github.com/Psychopath21312/.config-for-hyprland.git
 mv config/* .config/
 rm -rf .git README.md
 ```
