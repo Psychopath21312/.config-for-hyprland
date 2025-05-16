@@ -3,7 +3,7 @@
 cd
 git clone https://github.com/Psychopath21312/.config-for-hyprland.git
 mv config/* .config/
-rm -rf .git README.md
+rm -rf config .git README.md
 ```
 ## Arch Linux:
 
