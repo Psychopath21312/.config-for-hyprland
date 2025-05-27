@@ -40,7 +40,7 @@
     "format": "<span size='13000' foreground='#C6AAE8'> </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
-    "network": {
+  "network": {
     "format-wifi": "<span size='13000' foreground='#F2CECF'> </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#F2CECF'>󰤭</span> Disconnected",
     "format-linked": "{ifname} (No IP) ",
